@@ -66,7 +66,7 @@ app.post("/api/questions", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
-
+//
 // Route: Get Questions by Category
 app.get("/api/questions/:category", async (req, res) => {
   try {
